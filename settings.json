@@ -1,0 +1,85 @@
+{
+	"*": {
+		"autocomplete-python": {
+			"showDescriptions": false
+		},
+		"core": {
+			"disabledPackages": [
+				"color-picker",
+				"intentions"
+			],
+			"telemetryConsent": "no",
+			"themes": [
+				"one-dark-ui",
+				"darkpython-syntax"
+			],
+			"useTreeSitterParsers": false
+		},
+		"docblock-python": {
+			"examples": true,
+			"raises": true
+		},
+		"editor": {
+			"fontSize": 13
+		},
+		"exception-reporting": {
+			"userId": "56b74dfb-9746-49ca-b285-bad3befd3d74"
+		},
+		"github": {
+			"remoteFetchProtocol": "ssh"
+		},
+		"ide-python": {
+			"pylsPlugins": {
+				"autopep8": {
+					"enabled": false
+				},
+				"flake8": {},
+				"mccabe": {
+					"enabled": false
+				},
+				"pycodestyle": {
+					"enabled": false
+				},
+				"pydocstyle": {
+					"convention": "numpy"
+				},
+				"pyflakes": {
+					"enabled": false
+				},
+				"pylint": {}
+			}
+		},
+		"kite": {
+			"showWelcomeNotificationOnStartup": false
+		},
+		"linter-flake8": {},
+		"linter-markdown": {},
+		"linter-remark": {},
+		"linter-ui-default": {
+			"panelHeight": 250,
+			"showPanel": true
+		},
+		"minimap": {
+			"absoluteMode": true,
+			"adjustAbsoluteModeHeight": true,
+			"displayMinimapOnLeft": true
+		},
+		"python-black": {
+			"fmtOnSave": false
+		},
+		"split-diff": {
+			"autoDiff": false,
+			"ignoreWhitespace": true,
+			"turnOffSoftWrap": true
+		},
+		"sync-settings": {
+			"useOtherLocation": true
+		},
+		"sync-settings-git-location": {
+			"gitUrl": "https://kkempfer:SaumonFontaine1@github.com/kkempfer/atom.git"
+		},
+		"welcome": {
+			"showOnStartup": false
+		}
+	}
+}
